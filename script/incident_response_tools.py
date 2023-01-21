@@ -8,28 +8,6 @@ tools = open("../ressources/IR_tools.md", 'r')
 lines = tools.readlines()
 tools.close()
 
-# tools_categories = {}
-# tools_categories["Adversary Emulation"] = {}
-# tools_categories["All-In-One Tools"] = {}
-# tools_categories["Books"] = {}
-# tools_categories["Communities"] = {}
-# tools_categories["Disk Image Creation Tools"] = {}
-# tools_categories["Evidence Collection"] = {}
-# tools_categories["Incident Management"] = {}
-# tools_categories["Knowledge Bases"] = {}
-# tools_categories["Linux Distributions"] = {}
-# tools_categories["Linux Evidence Collection"] = {}
-# tools_categories["Log Analysis Tools"] = {}
-# tools_categories["Docker Forensics"] = {}
-# tools_categories["Internet Artifacts"] = {}
-# tools_categories["Timeline Analysis"] = {}
-# tools_categories["Disk Image Handling"] = {}
-# tools_categories["Decryption"] = {}
-# tools_categories["Management"] = {}
-# tools_categories["Picture Analysis"] = {}
-# tools_categories["Metadata Forensics"] = {}
-# tools_categories["Steganography"] = {}
-
 tools_categories = {}
 ok = False
 for line in lines:

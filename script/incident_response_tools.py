@@ -47,6 +47,7 @@ for line in lines:
             t = temp.split("(")
             tools_categories[t[0]] = {}
 del tools_categories['']
+del tools_categories['Videos']
 
 # ------------
 # SCRAP DATA |

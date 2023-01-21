@@ -89,10 +89,6 @@
       "expanded": "Timeline Tools"
     },
     {
-      "value": "Videos",
-      "expanded": "Videos"
-    },
-    {
       "value": "Windows_Evidence_Collection",
       "expanded": "Windows Evidence Collection"
     }
@@ -1190,16 +1186,6 @@
           "value": "timesketch",
           "expanded": "Timesketch",
           "description": "Open source tool for collaborative forensic timeline analysis."
-        }
-      ]
-    },
-    {
-      "predicate": "Videos",
-      "entry": [
-        {
-          "value": "the_future_of_incident_response",
-          "expanded": "The Future of Incident Response",
-          "description": "Presented by Bruce Schneier at OWASP AppSecUSA 2015."
         }
       ]
     },

@@ -1,0 +1,1297 @@
+{
+  "namespace": "incident-response-tools",
+  "description": "This taxonomy aims to classify incident response tools.",
+  "version": 1,
+  "expanded": "Incident response tools",
+  "predicates": [
+    {
+      "value": "Adversary_Emulation",
+      "expanded": "Adversary Emulation"
+    },
+    {
+      "value": "All-In-One_Tools",
+      "expanded": "All-In-One Tools"
+    },
+    {
+      "value": "Books",
+      "expanded": "Books"
+    },
+    {
+      "value": "Communities",
+      "expanded": "Communities"
+    },
+    {
+      "value": "Disk_Image_Creation_Tools",
+      "expanded": "Disk Image Creation Tools"
+    },
+    {
+      "value": "Evidence_Collection",
+      "expanded": "Evidence Collection"
+    },
+    {
+      "value": "Incident_Management",
+      "expanded": "Incident Management"
+    },
+    {
+      "value": "Knowledge_Bases",
+      "expanded": "Knowledge Bases"
+    },
+    {
+      "value": "Linux_Distributions",
+      "expanded": "Linux Distributions"
+    },
+    {
+      "value": "Linux_Evidence_Collection",
+      "expanded": "Linux Evidence Collection"
+    },
+    {
+      "value": "Log_Analysis_Tools",
+      "expanded": "Log Analysis Tools"
+    },
+    {
+      "value": "Memory_Analysis_Tools",
+      "expanded": "Memory Analysis Tools"
+    },
+    {
+      "value": "Memory_Imaging_Tools",
+      "expanded": "Memory Imaging Tools"
+    },
+    {
+      "value": "OSX_Evidence_Collection",
+      "expanded": "OSX Evidence Collection"
+    },
+    {
+      "value": "Other_Lists",
+      "expanded": "Other Lists"
+    },
+    {
+      "value": "Other_Tools",
+      "expanded": "Other Tools"
+    },
+    {
+      "value": "Playbooks",
+      "expanded": "Playbooks"
+    },
+    {
+      "value": "Process_Dump_Tools",
+      "expanded": "Process Dump Tools"
+    },
+    {
+      "value": "Sandboxing/Reversing_Tools",
+      "expanded": "Sandboxing/Reversing Tools"
+    },
+    {
+      "value": "Scanner_Tools",
+      "expanded": "Scanner Tools"
+    },
+    {
+      "value": "Timeline_Tools",
+      "expanded": "Timeline Tools"
+    },
+    {
+      "value": "Videos",
+      "expanded": "Videos"
+    },
+    {
+      "value": "Windows_Evidence_Collection",
+      "expanded": "Windows Evidence Collection"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "Adversary_Emulation",
+      "entry": [
+        {
+          "value": "aptsimulator",
+          "expanded": "APTSimulator",
+          "description": "Windows Batch script that uses a set of tools and output files to make a system look as if it was compromised."
+        },
+        {
+          "value": "atomic_red_team",
+          "expanded": "Atomic Red Team ",
+          "description": "Small and highly portable detection tests mapped to the MITRE ATT&CK Framework."
+        },
+        {
+          "value": "autottp",
+          "expanded": "AutoTTP",
+          "description": "Automated Tactics Techniques & Procedures. Re-running complex sequences manually for regression tests, product evaluations, generate data for researchers."
+        },
+        {
+          "value": "blue_team_training_toolkit",
+          "expanded": "Blue Team Training Toolkit ",
+          "description": "Software for defensive security training, which will bring your network analysis training sessions, incident response drills and red team engagements to a new level."
+        },
+        {
+          "value": "caldera",
+          "expanded": "Caldera",
+          "description": "Automated adversary emulation system that performs post-compromise adversarial behavior within Windows Enterprise networks. It generates plans during operation using a planning system and a pre-configured adversary model based on the Adversarial Tactics, Techniques & Common Knowledge (ATT&CK™) project."
+        },
+        {
+          "value": "dumpsterfire",
+          "expanded": "DumpsterFire",
+          "description": "Modular, menu-driven, cross-platform tool for building repeatable, time-delayed, distributed security events. Easily create custom event chains for Blue Team drills and sensor /   alert mapping. Red Teams can create decoy incidents, distractions, and lures to support and scale their operations."
+        },
+        {
+          "value": "metta",
+          "expanded": "Metta",
+          "description": "Information security preparedness tool to do adversarial simulation."
+        },
+        {
+          "value": "network_flight_simulator",
+          "expanded": "Network Flight Simulator",
+          "description": "Lightweight utility used to generate malicious network traffic and help security teams to evaluate security controls and network visibility."
+        },
+        {
+          "value": "red_team_automation",
+          "expanded": "Red Team Automation ",
+          "description": "RTA provides a framework of scripts designed to allow blue teams to test their detection capabilities against malicious tradecraft, modeled after MITRE ATT&CK."
+        },
+        {
+          "value": "redhunt-os",
+          "expanded": "RedHunt-OS",
+          "description": "Virtual machine for adversary emulation and threat hunting."
+        }
+      ]
+    },
+    {
+      "predicate": "All-In-One_Tools",
+      "entry": [
+        {
+          "value": "belkasoft_evidence_center",
+          "expanded": "Belkasoft Evidence Center",
+          "description": " The toolkit will quickly extract digital evidence from multiple sources by analyzing hard drives, drive images, memory dumps, iOS, Blackberry and Android backups, UFED, JTAG and chip-off dumps."
+        },
+        {
+          "value": "cimsweep",
+          "expanded": "CimSweep",
+          "description": "Suite of CIM/WMI-based tools that enable the ability to perform incident response and hunting operations remotely across all versions of Windows."
+        },
+        {
+          "value": "cirtkit",
+          "expanded": "CIRTkit",
+          "description": "CIRTKit is not just a collection of tools, but also a framework to aid in the ongoing unification of Incident Response and Forensics investigation processes."
+        },
+        {
+          "value": "cyber_triage",
+          "expanded": "Cyber Triage",
+          "description": "Cyber Triage remotely collects and analyzes endpoint data to help determine if it is compromised.  It’s agentless approach and focus on ease of use and automation allows companies to respond without major infrastructure changes and without a team of forensics experts.  Its results are used to decide if the system should be erased or investigated further."
+        },
+        {
+          "value": "doorman",
+          "expanded": "Doorman",
+          "description": "osquery fleet manager that allows remote management of osquery configurations retrieved by nodes. It takes advantage of osquery's TLS configuration, logger, and distributed read/write endpoints, to give administrators visibility across a fleet of devices with minimal overhead and intrusiveness."
+        },
+        {
+          "value": "falcon_orchestrator",
+          "expanded": "Falcon Orchestrator",
+          "description": "Extendable Windows-based application that provides workflow automation, case management and security response functionality."
+        },
+        {
+          "value": "flare",
+          "expanded": "Flare",
+          "description": "A fully customizable, Windows-based security distribution for malware analysis, incident response, penetration testing."
+        },
+        {
+          "value": "fleetdm",
+          "expanded": "Fleetdm",
+          "description": "State of the art host monitoring platform tailored for security experts. Leveraging Facebook's battle-tested osquery project, Fleetdm delivers continuous updates, features and fast answers to big questions."
+        },
+        {
+          "value": "grr_rapid_response",
+          "expanded": "GRR Rapid Response",
+          "description": "Incident response framework focused on remote live forensics. It consists of a python agent (client) that is installed on target systems, and a python server infrastructure that can manage and talk to the agent. Besides the included Python API client, [PowerGRR(https://github.com/swisscom/PowerGRR) provides an API client library in PowerShell working on Windows, Linux and macOS for GRR automation and scripting."
+        },
+        {
+          "value": "iris",
+          "expanded": "IRIS",
+          "description": "IRIS is a web collaborative platform for incident response analysts allowing to share investigations at a technical level."
+        },
+        {
+          "value": "kuiper",
+          "expanded": "Kuiper",
+          "description": "Digital Forensics Investigation Platform"
+        },
+        {
+          "value": "limacharlie",
+          "expanded": "Limacharlie",
+          "description": "Endpoint security platform composed of a collection of small projects all working together that gives you a cross-platform (Windows, OSX, Linux, Android and iOS) low-level environment for managing and pushing additional modules into memory to extend its functionality."
+        },
+        {
+          "value": "mozdef",
+          "expanded": "MozDef",
+          "description": "Automates the security incident handling process and facilitate the real-time activities of incident handlers."
+        },
+        {
+          "value": "mutablesecurity",
+          "expanded": "MutableSecurity",
+          "description": "CLI program for automating the setup, configuration, and use of cybersecurity solutions."
+        },
+        {
+          "value": "nighthawk",
+          "expanded": "nightHawk",
+          "description": "Application built for asynchronous forensic data presentation using ElasticSearch as the backend. It's designed to ingest Redline collections."
+        },
+        {
+          "value": "open_computer_forensics_architecture",
+          "expanded": "Open Computer Forensics Architecture",
+          "description": "Another popular distributed open-source computer forensics framework. This framework was built on Linux platform and uses postgreSQL database for storing data."
+        },
+        {
+          "value": "osquery",
+          "expanded": "osquery",
+          "description": "Easily ask questions about your Linux and macOS infrastructure using a SQL-like query language; the provided *incident-response pack* helps you detect and respond to breaches."
+        },
+        {
+          "value": "redline",
+          "expanded": "Redline",
+          "description": "Provides host investigative capabilities to users to find signs of malicious activity through memory and file analysis, and the development of a threat assessment profile."
+        },
+        {
+          "value": "soc_multi-tool",
+          "expanded": "SOC Multi-tool",
+          "description": "A powerful and user-friendly browser extension that streamlines investigations for security professionals.  "
+        },
+        {
+          "value": "the_sleuth_kit_&_autopsy",
+          "expanded": "The Sleuth Kit & Autopsy",
+          "description": "Unix and Windows based tool which helps in forensic analysis of computers. It comes with various tools which helps in digital forensics. These tools help in analyzing disk images, performing in-depth analysis of file systems, and various other things."
+        },
+        {
+          "value": "thehive",
+          "expanded": "TheHive",
+          "description": "Scalable 3-in-1 open source and free solution designed to make life easier for SOCs, CSIRTs, CERTs and any information security practitioner dealing with security incidents that need to be investigated and acted upon swiftly."
+        },
+        {
+          "value": "velociraptor",
+          "expanded": "Velociraptor",
+          "description": "Endpoint visibility and collection tool"
+        },
+        {
+          "value": "x-ways_forensics",
+          "expanded": "X-Ways Forensics",
+          "description": "Forensics tool for Disk cloning and imaging. It can be used to find deleted files and disk analysis."
+        },
+        {
+          "value": "zentral",
+          "expanded": "Zentral",
+          "description": "Combines osquery's powerful endpoint inventory features with a flexible notification and action framework. This enables one to identify and react to changes on OS X and Linux clients."
+        }
+      ]
+    },
+    {
+      "predicate": "Books",
+      "entry": [
+        {
+          "value": "applied_incident_response",
+          "expanded": "Applied Incident Response",
+          "description": "Steve Anson's book on Incident Response."
+        },
+        {
+          "value": "art_of_memory_forensics",
+          "expanded": "Art of Memory Forensics",
+          "description": "Detecting Malware and Threats in Windows, Linux, and Mac Memory."
+        },
+        {
+          "value": "crafting_the_infosec_playbook:_security_monitoring_and_incident_response_master_plan",
+          "expanded": "Crafting the InfoSec Playbook: Security Monitoring and Incident Response Master Plan",
+          "description": "by Jeff Bollinger, Brandon Enright and Matthew Valites."
+        },
+        {
+          "value": "digital_forensics_and_incident_response:_incident_response_techniques_and_procedures_to_respond_to_modern_cyber_threats",
+          "expanded": "Digital Forensics and Incident Response: Incident response techniques and procedures to respond to modern cyber threats",
+          "description": "by Gerard Johansen."
+        },
+        {
+          "value": "introduction_to_dfir",
+          "expanded": "Introduction to DFIR",
+          "description": "By Scott J. Roberts."
+        },
+        {
+          "value": "incident_response_&_computer_forensics,_third_edition",
+          "expanded": "Incident Response & Computer Forensics, Third Edition",
+          "description": "The definitive guide to incident response."
+        },
+        {
+          "value": "incident_response_techniques_for_ransomware_attacks",
+          "expanded": "Incident Response Techniques for Ransomware Attacks",
+          "description": "A great guide to build an incident response strategy for ransomware attacks. By Oleg Skulkin."
+        },
+        {
+          "value": "incident_response_with_threat_intelligence",
+          "expanded": "Incident Response with Threat Intelligence",
+          "description": "Great reference to build an incident response plan based also on Threat Intelligence. By Roberto Martinez."
+        },
+        {
+          "value": "intelligence-driven_incident_response",
+          "expanded": "Intelligence-Driven Incident Response",
+          "description": "By Scott J. Roberts, Rebekah Brown."
+        },
+        {
+          "value": "operator_handbook:_red_team_+_osint_+_blue_team_reference",
+          "expanded": "Operator Handbook: Red Team + OSINT + Blue Team Reference",
+          "description": "Great reference for incident responders."
+        },
+        {
+          "value": "practical_memory_forensics",
+          "expanded": "Practical Memory Forensics",
+          "description": "The definitive guide to practice memory forensics. By Svetlana Ostrovskaya and Oleg Skulkin."
+        },
+        {
+          "value": "the_practice_of_network_security_monitoring:_understanding_incident_detection_and_response",
+          "expanded": "The Practice of Network Security Monitoring: Understanding Incident Detection and Response",
+          "description": "Richard Bejtlich's book on IR."
+        }
+      ]
+    },
+    {
+      "predicate": "Communities",
+      "entry": [
+        {
+          "value": "digital_forensics_discord_server",
+          "expanded": "Digital Forensics Discord Server",
+          "description": "Community of 8,000+ working professionals from Law Enforcement, Private Sector, and Forensic Vendors. Additionally, plenty of students and hobbyists! Guide [here(https://aboutdfir.com/a-beginners-guide-to-the-digital-forensics-discord-server/). "
+        },
+        {
+          "value": "sans_dfir_mailing_list",
+          "expanded": "SANS DFIR mailing list",
+          "description": "Mailing list by SANS for DFIR."
+        },
+        {
+          "value": "slack_dfir_channel",
+          "expanded": "Slack DFIR channel",
+          "description": "Slack DFIR Communitiy channel"
+        }
+      ]
+    },
+    {
+      "predicate": "Disk_Image_Creation_Tools",
+      "entry": [
+        {
+          "value": "accessdata_ftk_imager",
+          "expanded": "AccessData FTK Imager",
+          "description": "Forensics tool whose main purpose is to preview recoverable data from a disk of any kind. FTK Imager can also acquire live memory and paging file on 32bit and 64bit systems."
+        },
+        {
+          "value": "bitscout",
+          "expanded": "Bitscout",
+          "description": "Bitscout by Vitaly Kamluk helps you build your fully-trusted customizable LiveCD/LiveUSB image to be used for remote digital forensics (or perhaps any other task of your choice). It is meant to be transparent and monitorable by the owner of the system, forensically sound, customizable and compact."
+        },
+        {
+          "value": "getdata_forensic_imager",
+          "expanded": "GetData Forensic Imager",
+          "description": "Windows based program that will acquire, convert, or verify a forensic image in one of the following common forensic file formats."
+        },
+        {
+          "value": "guymager",
+          "expanded": "Guymager",
+          "description": "Free forensic imager for media acquisition on Linux."
+        },
+        {
+          "value": "magnet_acquire",
+          "expanded": "Magnet ACQUIRE",
+          "description": "ACQUIRE by Magnet Forensics allows various types of disk acquisitions to be performed on Windows, Linux, and OS X as well as mobile operating systems."
+        }
+      ]
+    },
+    {
+      "predicate": "Evidence_Collection",
+      "entry": [
+        {
+          "value": "artifactcollector",
+          "expanded": "artifactcollector",
+          "description": "The artifactcollector project provides a software that collects forensic artifacts on systems."
+        },
+        {
+          "value": "bulk_extractor",
+          "expanded": "bulk_extractor",
+          "description": "Computer forensics tool that scans a disk image, a file, or a directory of files and extracts useful information without parsing the file system or file system structures. Because of ignoring the file system structure, the program distinguishes itself in terms of speed and thoroughness."
+        },
+        {
+          "value": "cold_disk_quick_response",
+          "expanded": "Cold Disk Quick Response",
+          "description": "Streamlined list of parsers to quickly analyze a forensic image file (`dd`, E01, `.vmdk`, etc) and output nine reports."
+        },
+        {
+          "value": "cylr",
+          "expanded": "CyLR",
+          "description": "The CyLR tool collects forensic artifacts from hosts with NTFS file systems quickly, securely and minimizes impact to the host."
+        },
+        {
+          "value": "forensic_artifacts",
+          "expanded": "Forensic Artifacts",
+          "description": "Digital Forensics Artifact Repository"
+        },
+        {
+          "value": "ir-rescue",
+          "expanded": "ir-rescue",
+          "description": "Windows Batch script and a Unix Bash script to comprehensively collect host forensic data during incident response."
+        },
+        {
+          "value": "live_response_collection",
+          "expanded": "Live Response Collection",
+          "description": "Automated tool that collects volatile data from Windows, OSX, and \\*nix based operating systems."
+        },
+        {
+          "value": "margarita_shotgun",
+          "expanded": "Margarita Shotgun",
+          "description": "Command line utility (that works with or without Amazon EC2 instances) to parallelize remote memory acquisition."
+        },
+        {
+          "value": "uac",
+          "expanded": "UAC",
+          "description": "UAC (Unix-like Artifacts Collector) is a Live Response collection script for Incident Response that makes use of native binaries and tools to automate the collection of AIX, Android, ESXi, FreeBSD, Linux, macOS, NetBSD, NetScaler, OpenBSD and Solaris systems artifacts."
+        }
+      ]
+    },
+    {
+      "predicate": "Incident_Management",
+      "entry": [
+        {
+          "value": "catalyst",
+          "expanded": "Catalyst",
+          "description": "A free SOAR system that helps to automate alert handling and incident response processes."
+        },
+        {
+          "value": "cybercpr",
+          "expanded": "CyberCPR",
+          "description": "Community and commercial incident management tool with Need-to-Know built in to support GDPR compliance while handling sensitive incidents."
+        },
+        {
+          "value": "cyphon",
+          "expanded": "Cyphon",
+          "description": "Cyphon eliminates the headaches of incident management by streamlining a multitude of related tasks through a single platform. It receives, processes and triages events to provide an all-encompassing solution for your analytic workflow — aggregating data, bundling and prioritizing alerts, and empowering analysts to investigate and document incidents."
+        },
+        {
+          "value": "cortex_xsoar",
+          "expanded": "CORTEX XSOAR",
+          "description": "Paloalto security orchestration, automation and response platform with full Incident lifecycle management and many integrations to enhance automations."
+        },
+        {
+          "value": "dftimewolf",
+          "expanded": "DFTimewolf",
+          "description": "A framework for orchestrating forensic collection, processing and data export."
+        },
+        {
+          "value": "dfirtrack",
+          "expanded": "DFIRTrack",
+          "description": "Incident Response tracking application handling one or more incidents via cases and tasks with a lot of affected systems and artifacts."
+        },
+        {
+          "value": "fast_incident_response",
+          "expanded": "Fast Incident Response ",
+          "description": "Cybersecurity incident management platform designed with agility and speed in mind. It allows for easy creation, tracking, and reporting of cybersecurity incidents and is useful for CSIRTs, CERTs and SOCs alike."
+        },
+        {
+          "value": "rtir",
+          "expanded": "RTIR",
+          "description": "Request Tracker for Incident Response (RTIR) is the premier open source incident handling system targeted for computer security teams. We worked with over a dozen CERT and CSIRT teams around the world to help you handle the ever-increasing volume of incident reports. RTIR builds on all the features of Request Tracker."
+        },
+        {
+          "value": "sandia_cyber_omni_tracker",
+          "expanded": "Sandia Cyber Omni Tracker ",
+          "description": "Incident Response collaboration and knowledge capture tool focused on flexibility and ease of use. Our goal is to add value to the incident response process without burdening the user."
+        },
+        {
+          "value": "shuffle",
+          "expanded": "Shuffle",
+          "description": "A general purpose security automation platform focused on accessibility."
+        },
+        {
+          "value": "threat_note",
+          "expanded": "threat_note",
+          "description": "Lightweight investigation notebook that allows security researchers the ability to register and retrieve indicators related to their research."
+        },
+        {
+          "value": "zenduty",
+          "expanded": "Zenduty",
+          "description": "Zenduty is a novel incident management platform providing end-to-end incident alerting, on-call management and response orchestration, giving teams greater control and automation over the incident management lifecycle."
+        }
+      ]
+    },
+    {
+      "predicate": "Knowledge_Bases",
+      "entry": [
+        {
+          "value": "digital_forensics_artifact_knowledge_base",
+          "expanded": "Digital Forensics Artifact Knowledge Base",
+          "description": "Digital Forensics Artifact Knowledge Base"
+        },
+        {
+          "value": "windows_events_attack_samples",
+          "expanded": "Windows Events Attack Samples",
+          "description": "Windows Events Attack Samples"
+        },
+        {
+          "value": "windows_registry_knowledge_base",
+          "expanded": "Windows Registry Knowledge Base",
+          "description": "Windows Registry Knowledge Base"
+        }
+      ]
+    },
+    {
+      "predicate": "Linux_Distributions",
+      "entry": [
+        {
+          "value": "the_appliance_for_digital_investigation_and_analysis",
+          "expanded": "The Appliance for Digital Investigation and Analysis ",
+          "description": "VMware-based appliance used for digital investigation and acquisition and is built entirely from public domain software. Among the tools contained in ADIA are Autopsy, the Sleuth Kit, the Digital Forensics Framework, log2timeline, Xplico, and Wireshark. Most of the system maintenance uses Webmin. It is designed for small-to-medium sized digital investigations and acquisitions. The appliance runs under Linux, Windows, and Mac OS. Both i386 (32-bit) and x86_64 (64-bit) versions are available."
+        },
+        {
+          "value": "computer_aided_investigative_environment",
+          "expanded": "Computer Aided Investigative Environment ",
+          "description": "Contains numerous tools that help investigators during their analysis, including forensic evidence collection."
+        },
+        {
+          "value": "ccf-vm",
+          "expanded": "CCF-VM",
+          "description": "CyLR CDQR Forensics Virtual Machine (CCF-VM): An all-in-one solution to parsing collected data, making it easily searchable with built-in common searches, enable searching of single and multiple hosts simultaneously."
+        },
+        {
+          "value": "digital_evidence_&_forensics_toolkit",
+          "expanded": "Digital Evidence & Forensics Toolkit ",
+          "description": "Linux distribution made for computer forensic evidence collection. It comes bundled with the Digital Advanced Response Toolkit (DART) for Windows. A light version of DEFT, called DEFT Zero, is also available, which is focused primarily on forensically sound evidence collection."
+        },
+        {
+          "value": "nst",
+          "expanded": "NST",
+          "description": "Network Security Toolkit(https://sourceforge.net/projects/nst/files/latest/download?source=files)"
+        },
+        {
+          "value": "paladin",
+          "expanded": "PALADIN",
+          "description": "Modified Linux distribution to perform various forensics task in a forensically sound manner. It comes with many open source forensics tools included."
+        },
+        {
+          "value": "security_onion",
+          "expanded": "Security Onion",
+          "description": "Special Linux distro aimed at network security monitoring featuring advanced analysis tools."
+        },
+        {
+          "value": "sans_investigative_forensic_toolkit",
+          "expanded": "SANS Investigative Forensic Toolkit ",
+          "description": "Demonstrates that advanced incident response capabilities and deep dive digital forensic techniques to intrusions can be accomplished using cutting-edge open-source tools that are freely available and frequently updated."
+        }
+      ]
+    },
+    {
+      "predicate": "Linux_Evidence_Collection",
+      "entry": [
+        {
+          "value": "fastir_collector_linux",
+          "expanded": "FastIR Collector Linux",
+          "description": "FastIR for Linux collects different artifacts on live Linux and records the results in CSV files."
+        }
+      ]
+    },
+    {
+      "predicate": "Log_Analysis_Tools",
+      "entry": [
+        {
+          "value": "appcompatprocessor",
+          "expanded": "AppCompatProcessor",
+          "description": "AppCompatProcessor has been designed to extract additional value from enterprise-wide AppCompat / AmCache data beyond the classic stacking and grepping techniques."
+        },
+        {
+          "value": "apt_hunter",
+          "expanded": "APT Hunter",
+          "description": "APT-Hunter is Threat Hunting tool for windows event logs."
+        },
+        {
+          "value": "chainsaw",
+          "expanded": "Chainsaw",
+          "description": "Chainsaw provides a powerful ‘first-response’ capability to quickly identify threats within Windows event logs."
+        },
+        {
+          "value": "event_log_explorer",
+          "expanded": "Event Log Explorer",
+          "description": "Tool developed to quickly analyze log files and other data."
+        },
+        {
+          "value": "event_log_observer",
+          "expanded": "Event Log Observer",
+          "description": "View, analyze and monitor events recorded in Microsoft Windows event logs with this GUI tool."
+        },
+        {
+          "value": "hayabusa",
+          "expanded": "Hayabusa",
+          "description": "Hayabusa is a Windows event log fast forensics timeline generator and threat hunting tool created by the Yamato Security group in Japan."
+        },
+        {
+          "value": "kaspersky_cybertrace",
+          "expanded": "Kaspersky CyberTrace",
+          "description": "Threat intelligence fusion and analysis tool that integrates threat data feeds with SIEM solutions. Users can immediately leverage threat intelligence for security monitoring and incident report (IR) activities in the workflow of their existing security operations."
+        },
+        {
+          "value": "log_parser_lizard",
+          "expanded": "Log Parser Lizard",
+          "description": "Execute SQL queries against structured log data: server logs, Windows Events, file system, Active Directory, log4net logs, comma/tab separated text, XML or JSON files. Also provides a GUI to Microsoft LogParser 2.2 with powerful UI elements: syntax editor, data grid, chart, pivot table, dashboard, query manager and more."
+        },
+        {
+          "value": "lorg",
+          "expanded": "Lorg",
+          "description": "Tool for advanced HTTPD logfile security analysis and forensics."
+        },
+        {
+          "value": "logdissect",
+          "expanded": "Logdissect",
+          "description": "CLI utility and Python API for analyzing log files and other data."
+        },
+        {
+          "value": "logontracer",
+          "expanded": "LogonTracer",
+          "description": "Tool to investigate malicious Windows logon by visualizing and analyzing Windows event log."
+        },
+        {
+          "value": "sigma",
+          "expanded": "Sigma",
+          "description": "Generic signature format for SIEM systems already containing an extensive ruleset."
+        },
+        {
+          "value": "streamalert",
+          "expanded": "StreamAlert",
+          "description": "Serverless, real-time log data analysis framework, capable of ingesting custom data sources and triggering alerts using user-defined logic."
+        },
+        {
+          "value": "sysmonsearch",
+          "expanded": "SysmonSearch",
+          "description": "SysmonSearch makes Windows event log analysis more effective and less time consuming by aggregation of event logs."
+        },
+        {
+          "value": "wela",
+          "expanded": "WELA",
+          "description": "Windows Event Log Analyzer aims to be the Swiss Army knife for Windows event logs."
+        },
+        {
+          "value": "zircolite",
+          "expanded": "Zircolite",
+          "description": "A standalone and fast SIGMA-based detection tool for EVTX or JSON."
+        }
+      ]
+    },
+    {
+      "predicate": "Memory_Analysis_Tools",
+      "entry": [
+        {
+          "value": "avml",
+          "expanded": "AVML",
+          "description": "A portable volatile memory acquisition tool for Linux."
+        },
+        {
+          "value": "evolve",
+          "expanded": "Evolve",
+          "description": "Web interface for the Volatility Memory Forensics Framework."
+        },
+        {
+          "value": "invtero.net",
+          "expanded": "inVtero.net",
+          "description": "Advanced memory analysis for Windows x64 with nested hypervisor support."
+        },
+        {
+          "value": "lime",
+          "expanded": "LiME",
+          "description": "Loadable Kernel Module (LKM), which allows the acquisition of volatile memory from Linux and Linux-based devices, formerly called DMD."
+        },
+        {
+          "value": "malconfscan",
+          "expanded": "MalConfScan",
+          "description": "MalConfScan is a Volatility plugin extracts configuration data of known malware. Volatility is an open-source memory forensics framework for incident response and malware analysis. This tool searches for malware in memory images and dumps configuration data. In addition, this tool has a function to list strings to which malicious code refers."
+        },
+        {
+          "value": "memoryze",
+          "expanded": "Memoryze",
+          "description": "Free memory forensic software that helps incident responders find evil in live memory. Memoryze can acquire and/or analyze memory images, and on live systems, can include the paging file in its analysis."
+        },
+        {
+          "value": "memoryze_for_mac",
+          "expanded": "Memoryze for Mac",
+          "description": "Memoryze for Mac is Memoryze but then for Macs. A lower number of features, however."
+        },
+        {
+          "value": "orochi",
+          "expanded": "Orochi",
+          "description": "Orochi is an open source framework for collaborative forensic memory dump analysis."
+        },
+        {
+          "value": "rekall",
+          "expanded": "Rekall",
+          "description": "Open source tool (and library) for the extraction of digital artifacts from volatile memory (RAM) samples."
+        },
+        {
+          "value": "responder_pro",
+          "expanded": "Responder PRO",
+          "description": "Responder PRO is the industry standard physical memory and automated malware analysis solution."
+        },
+        {
+          "value": "volatility",
+          "expanded": "Volatility",
+          "description": "Advanced memory forensics framework."
+        },
+        {
+          "value": "volatility_3",
+          "expanded": "Volatility 3",
+          "description": "The volatile memory extraction framework (successor of Volatility)"
+        },
+        {
+          "value": "volatilitybot",
+          "expanded": "VolatilityBot",
+          "description": "Automation tool for researchers cuts all the guesswork and manual tasks out of the binary extraction phase, or to help the investigator in the first steps of performing a memory analysis investigation."
+        },
+        {
+          "value": "voldiff",
+          "expanded": "VolDiff",
+          "description": "Malware Memory Footprint Analysis based on Volatility."
+        },
+        {
+          "value": "windowsscope",
+          "expanded": "WindowsSCOPE",
+          "description": "Memory forensics and reverse engineering tool used for analyzing volatile memory offering the capability of analyzing the Windows kernel, drivers, DLLs, and virtual and physical memory."
+        }
+      ]
+    },
+    {
+      "predicate": "Memory_Imaging_Tools",
+      "entry": [
+        {
+          "value": "belkasoft_live_ram_capturer",
+          "expanded": "Belkasoft Live RAM Capturer",
+          "description": "Tiny free forensic tool to reliably extract the entire content of the computer’s volatile memory – even if protected by an active anti-debugging or anti-dumping system."
+        },
+        {
+          "value": "linux_memory_grabber",
+          "expanded": "Linux Memory Grabber",
+          "description": "Script for dumping Linux memory and creating Volatility profiles."
+        },
+        {
+          "value": "magnet_ram_capture",
+          "expanded": "Magnet RAM Capture",
+          "description": "Free imaging tool designed to capture the physical memory of a suspect’s computer. Supports recent versions of Windows."
+        },
+        {
+          "value": "osforensics",
+          "expanded": "OSForensics",
+          "description": "Tool to acquire live memory on 32-bit and 64-bit systems. A dump of an individual process’s memory space or physical memory dump can be done."
+        }
+      ]
+    },
+    {
+      "predicate": "OSX_Evidence_Collection",
+      "entry": [
+        {
+          "value": "knockknock",
+          "expanded": "Knockknock",
+          "description": "Displays persistent items(scripts, commands, binaries, etc.) that are set to execute automatically on OSX."
+        },
+        {
+          "value": "macos_artifact_parsing_tool",
+          "expanded": "macOS Artifact Parsing Tool ",
+          "description": "Plugin based forensics framework for quick mac triage that works on live machines, disk images or individual artifact files."
+        },
+        {
+          "value": "osx_auditor",
+          "expanded": "OSX Auditor",
+          "description": "Free Mac OS X computer forensics tool."
+        },
+        {
+          "value": "osx_collector",
+          "expanded": "OSX Collector",
+          "description": "OSX Auditor offshoot for live response."
+        },
+        {
+          "value": "the_esf_playground",
+          "expanded": "The ESF Playground",
+          "description": "A tool to view the events in Apple Endpoint Security Framework (ESF) in real time."
+        }
+      ]
+    },
+    {
+      "predicate": "Other_Lists",
+      "entry": [
+        {
+          "value": "awesome_event_ids",
+          "expanded": "Awesome Event IDs",
+          "description": "Collection of Event ID resources useful for Digital Forensics and Incident Response."
+        },
+        {
+          "value": "awesome_forensics",
+          "expanded": "Awesome Forensics",
+          "description": "A curated list of awesome forensic analysis tools and resources."
+        },
+        {
+          "value": "didier_stevens_suite",
+          "expanded": "Didier Stevens Suite",
+          "description": "Tool collection"
+        },
+        {
+          "value": "eric_zimmerman_tools",
+          "expanded": "Eric Zimmerman Tools",
+          "description": "An updated list of forensic tools created by Eric Zimmerman, an instructor for SANS institute."
+        },
+        {
+          "value": "list_of_various_security_apis",
+          "expanded": "List of various Security APIs",
+          "description": "Collective list of public JSON APIs for use in security."
+        }
+      ]
+    },
+    {
+      "predicate": "Other_Tools",
+      "entry": [
+        {
+          "value": "cortex",
+          "expanded": "Cortex",
+          "description": "Cortex allows you to analyze observables such as IP and email addresses, URLs, domain names, files or hashes one by one or in bulk mode using a Web interface. Analysts can also automate these operations using its REST API."
+        },
+        {
+          "value": "crits",
+          "expanded": "Crits",
+          "description": "Web-based tool which combines an analytic engine with a cyber threat database."
+        },
+        {
+          "value": "diffy",
+          "expanded": "Diffy",
+          "description": "DFIR tool developed by Netflix's SIRT that allows an investigator to quickly scope a compromise across cloud instances (Linux instances on AWS, currently) during an incident and efficiently triaging those instances for followup actions by showing differences against a baseline."
+        },
+        {
+          "value": "domfind",
+          "expanded": "domfind",
+          "description": "Python DNS crawler for finding identical domain names under different TLDs."
+        },
+        {
+          "value": "fileintel",
+          "expanded": "Fileintel",
+          "description": "Pull intelligence per file hash."
+        },
+        {
+          "value": "helk",
+          "expanded": "HELK",
+          "description": "Threat Hunting platform."
+        },
+        {
+          "value": "hindsight",
+          "expanded": "Hindsight",
+          "description": "Internet history forensics for Google Chrome/Chromium."
+        },
+        {
+          "value": "hostintel",
+          "expanded": "Hostintel",
+          "description": "Pull intelligence per host."
+        },
+        {
+          "value": "imagemounter",
+          "expanded": "imagemounter",
+          "description": "Command line utility and Python package to ease the (un)mounting of forensic disk images."
+        },
+        {
+          "value": "kansa",
+          "expanded": "Kansa",
+          "description": "Modular incident response framework in PowerShell."
+        },
+        {
+          "value": "mft_browser",
+          "expanded": "MFT Browser",
+          "description": "MFT directory tree reconstruction & record info."
+        },
+        {
+          "value": "munin",
+          "expanded": "Munin",
+          "description": "Online hash checker for VirusTotal and other services."
+        },
+        {
+          "value": "powersponse",
+          "expanded": "PowerSponse",
+          "description": "PowerSponse is a PowerShell module focused on targeted containment and remediation during security incident response."
+        },
+        {
+          "value": "pyarascanner",
+          "expanded": "PyaraScanner",
+          "description": "Very simple multi-threaded many-rules to many-files YARA scanning Python script for malware zoos and IR."
+        },
+        {
+          "value": "rastrea2r",
+          "expanded": "rastrea2r",
+          "description": "Allows one to scan disks and memory for IOCs using YARA on Windows, Linux and OS X."
+        },
+        {
+          "value": "raqet",
+          "expanded": "RaQet",
+          "description": "Unconventional remote acquisition and triaging tool that allows triage a disk of a remote computer (client) that is restarted with a purposely built forensic operating system."
+        },
+        {
+          "value": "raccine",
+          "expanded": "Raccine",
+          "description": "A Simple Ransomware Protection"
+        },
+        {
+          "value": "stalk",
+          "expanded": "Stalk",
+          "description": "Collect forensic data about MySQL when problems occur."
+        },
+        {
+          "value": "scout2",
+          "expanded": "Scout2",
+          "description": "Security tool that lets Amazon Web Services administrators assess their environment's security posture."
+        },
+        {
+          "value": "stenographer",
+          "expanded": "Stenographer",
+          "description": "Packet capture solution which aims to quickly spool all packets to disk, then provide simple, fast access to subsets of those packets. It stores as much history as it possible, managing disk usage, and deleting when disk limits are hit. It's ideal for capturing the traffic just before and during an incident, without the need explicit need to store all of the network traffic."
+        },
+        {
+          "value": "sqhunter",
+          "expanded": "sqhunter",
+          "description": "Threat hunter based on osquery and Salt Open (SaltStack) that can issue ad-hoc or distributed queries without the need for osquery's tls plugin. sqhunter allows you to query open network sockets and check them against threat intelligence sources."
+        },
+        {
+          "value": "sysmon-config",
+          "expanded": "sysmon-config",
+          "description": "Sysmon configuration file template with default high-quality event tracing"
+        },
+        {
+          "value": "sysmon-modular",
+          "expanded": "sysmon-modular",
+          "description": "A repository of sysmon configuration modules"
+        },
+        {
+          "value": "traceroute-circl",
+          "expanded": "traceroute-circl",
+          "description": "Extended traceroute to support the activities of CSIRT (or CERT) operators. Usually CSIRT team have to handle incidents based on IP addresses received. Created by Computer Emergency Response Center Luxembourg."
+        },
+        {
+          "value": "x-ray_2.0",
+          "expanded": "X-Ray 2.0",
+          "description": "Windows utility (poorly maintained or no longer maintained) to submit virus samples to AV vendors."
+        }
+      ]
+    },
+    {
+      "predicate": "Playbooks",
+      "entry": [
+        {
+          "value": "aws_incident_response_runbook_samples",
+          "expanded": "AWS Incident Response Runbook Samples",
+          "description": "AWS IR Runbook Samples meant to be customized per each entity using them. The three samples are: \"DoS or DDoS attack\", \"credential leakage\", and \"unintended access to an Amazon S3 bucket\"."
+        },
+        {
+          "value": "counteractive_playbooks",
+          "expanded": "Counteractive Playbooks",
+          "description": "Counteractive PLaybooks collection."
+        },
+        {
+          "value": "guardsight_playbook_battle_cards",
+          "expanded": "GuardSIght Playbook Battle Cards",
+          "description": "A collection of Cyber Incident Response Playbook Battle Cards"
+        },
+        {
+          "value": "irm",
+          "expanded": "IRM",
+          "description": "Incident Response Methodologies by CERT Societe Generale."
+        },
+        {
+          "value": "ir_workflow_gallery",
+          "expanded": "IR Workflow Gallery",
+          "description": "Different generic incident response workflows, e.g. for malware outbreak, data theft, unauthorized access,... Every workflow consists of seven steps: prepare, detect, analyze, contain, eradicate, recover, post-incident handling. The workflows are online available or for download."
+        },
+        {
+          "value": "pagerduty_incident_response_documentation",
+          "expanded": "PagerDuty Incident Response Documentation",
+          "description": "Documents that describe parts of the PagerDuty Incident Response process. It provides information not only on preparing for an incident, but also what to do during and after. Source is available on [GitHub(https://github.com/PagerDuty/incident-response-docs)."
+        },
+        {
+          "value": "phantom_community_playbooks",
+          "expanded": "Phantom Community Playbooks",
+          "description": "Phantom Community Playbooks for Splunk but also customizable for other use."
+        },
+        {
+          "value": "threathunter-playbook",
+          "expanded": "ThreatHunter-Playbook",
+          "description": "Playbook to aid the development of techniques and hypothesis for hunting campaigns."
+        }
+      ]
+    },
+    {
+      "predicate": "Process_Dump_Tools",
+      "entry": [
+        {
+          "value": "microsoft_procdump",
+          "expanded": "Microsoft ProcDump",
+          "description": "Dumps any running Win32 processes memory image on the fly."
+        },
+        {
+          "value": "pmdump",
+          "expanded": "PMDump",
+          "description": "Tool that lets you dump the memory contents of a process to a file without stopping the process."
+        }
+      ]
+    },
+    {
+      "predicate": "Sandboxing/Reversing_Tools",
+      "entry": [
+        {
+          "value": "amaaas",
+          "expanded": "AMAaaS",
+          "description": "Android Malware Analysis as a Service, executed in a native Android environment."
+        },
+        {
+          "value": "any_run",
+          "expanded": "Any Run",
+          "description": "Interactive online malware analysis service for dynamic and static research of most types of threats using any environment."
+        },
+        {
+          "value": "capev2",
+          "expanded": "CAPEv2",
+          "description": "Malware Configuration And Payload Extraction."
+        },
+        {
+          "value": "cuckoo",
+          "expanded": "Cuckoo",
+          "description": "Open Source Highly configurable sandboxing tool."
+        },
+        {
+          "value": "cuckoo-modified",
+          "expanded": "Cuckoo-modified",
+          "description": "Heavily modified Cuckoo fork developed by community."
+        },
+        {
+          "value": "cuckoo-modified-api",
+          "expanded": "Cuckoo-modified-api",
+          "description": "Python library to control a cuckoo-modified sandbox."
+        },
+        {
+          "value": "cutter",
+          "expanded": "Cutter",
+          "description": "Reverse engineering platform powered by Radare2."
+        },
+        {
+          "value": "ghidra",
+          "expanded": "Ghidra",
+          "description": "Software Reverse Engineering Framework."
+        },
+        {
+          "value": "hybrid-analysis",
+          "expanded": "Hybrid-Analysis",
+          "description": "Free powerful online sandbox by CrowdStrike."
+        },
+        {
+          "value": "intezer",
+          "expanded": "Intezer",
+          "description": "Intezer Analyze dives into Windows binaries to detect micro-code similarities to known threats, in order to provide accurate yet easy-to-understand results."
+        },
+        {
+          "value": "joe_sandbox",
+          "expanded": "Joe Sandbox ",
+          "description": "Joe Sandbox detects and analyzes potential malicious files and URLs on Windows, Android, Mac OS, Linux, and iOS for suspicious activities; providing comprehensive and detailed analysis reports."
+        },
+        {
+          "value": "mastiff",
+          "expanded": "Mastiff",
+          "description": "Static analysis framework that automates the process of extracting key characteristics from a number of different file formats."
+        },
+        {
+          "value": "metadefender_cloud",
+          "expanded": "Metadefender Cloud",
+          "description": "Free threat intelligence platform providing multiscanning, data sanitization and vulnerability assessment of files."
+        },
+        {
+          "value": "radare2",
+          "expanded": "Radare2",
+          "description": "Reverse engineering framework and command-line toolset."
+        },
+        {
+          "value": "reverse.it",
+          "expanded": "Reverse.IT",
+          "description": "Alternative domain for the Hybrid-Analysis tool provided by CrowdStrike."
+        },
+        {
+          "value": "rizin",
+          "expanded": "Rizin",
+          "description": "UNIX-like reverse engineering framework and command-line toolset"
+        },
+        {
+          "value": "stringsifter",
+          "expanded": "StringSifter",
+          "description": "A machine learning tool that ranks strings based on their relevance for malware analysis."
+        },
+        {
+          "value": "threat.zone",
+          "expanded": "Threat.Zone",
+          "description": "Cloud based threat analysis platform which include sandbox, CDR and interactive analysis for researchers. "
+        },
+        {
+          "value": "valkyrie_comodo",
+          "expanded": "Valkyrie Comodo",
+          "description": "Valkyrie uses run-time behavior and hundreds of features from a file to perform analysis."
+        },
+        {
+          "value": "viper",
+          "expanded": "Viper",
+          "description": "Python based binary analysis and management framework, that works well with Cuckoo and YARA."
+        },
+        {
+          "value": "virustotal",
+          "expanded": "Virustotal",
+          "description": "Free online service that analyzes files and URLs enabling the identification of viruses, worms, trojans and other kinds of malicious content detected by antivirus engines and website scanners."
+        },
+        {
+          "value": "visualize_logs",
+          "expanded": "Visualize_Logs",
+          "description": "Open source visualization library and command line tools for logs (Cuckoo, Procmon, more to come)."
+        },
+        {
+          "value": "yomi",
+          "expanded": "Yomi",
+          "description": "Free MultiSandbox managed and hosted by Yoroi."
+        }
+      ]
+    },
+    {
+      "predicate": "Scanner_Tools",
+      "entry": [
+        {
+          "value": "fenrir",
+          "expanded": "Fenrir",
+          "description": "Simple IOC scanner. It allows scanning any Linux/Unix/OSX system for IOCs in plain bash. Created by the creators of THOR and LOKI."
+        },
+        {
+          "value": "loki",
+          "expanded": "LOKI",
+          "description": "Free IR scanner for scanning endpoint with yara rules and other indicators(IOCs)."
+        },
+        {
+          "value": "spyre",
+          "expanded": "Spyre",
+          "description": "Simple YARA-based IOC scanner written in Go"
+        }
+      ]
+    },
+    {
+      "predicate": "Timeline_Tools",
+      "entry": [
+        {
+          "value": "aurora_incident_response",
+          "expanded": "Aurora Incident Response",
+          "description": "Platform developed to build easily a detailed timeline of an incident."
+        },
+        {
+          "value": "highlighter",
+          "expanded": "Highlighter",
+          "description": "Free Tool available from Fire/Mandiant that will depict log/text file that can highlight areas on the graphic, that corresponded to a key word or phrase. Good for time lining an infection and what was done post compromise."
+        },
+        {
+          "value": "morgue",
+          "expanded": "Morgue",
+          "description": "PHP Web app by Etsy for managing postmortems."
+        },
+        {
+          "value": "plaso",
+          "expanded": "Plaso",
+          "description": " a Python-based backend engine for the tool log2timeline."
+        },
+        {
+          "value": "timesketch",
+          "expanded": "Timesketch",
+          "description": "Open source tool for collaborative forensic timeline analysis."
+        }
+      ]
+    },
+    {
+      "predicate": "Videos",
+      "entry": [
+        {
+          "value": "the_future_of_incident_response",
+          "expanded": "The Future of Incident Response",
+          "description": "Presented by Bruce Schneier at OWASP AppSecUSA 2015."
+        }
+      ]
+    },
+    {
+      "predicate": "Windows_Evidence_Collection",
+      "entry": [
+        {
+          "value": "achoir",
+          "expanded": "AChoir",
+          "description": "Framework/scripting tool to standardize and simplify the process of scripting live acquisition utilities for Windows."
+        },
+        {
+          "value": "crowd_response",
+          "expanded": "Crowd Response",
+          "description": "Lightweight Windows console application designed to aid in the gathering of system information for incident response and security engagements. It features numerous modules and output formats."
+        },
+        {
+          "value": "dfir_orc",
+          "expanded": "DFIR ORC",
+          "description": "DFIR ORC is a collection of specialized tools dedicated to reliably parse and collect critical artifacts such as the MFT, registry hives or event logs. DFIR ORC collects data, but does not analyze it: it is not meant to triage machines. It provides a forensically relevant snapshot of machines running Microsoft Windows. The code can be found on [GitHub(https://github.com/DFIR-ORC/dfir-orc)."
+        },
+        {
+          "value": "fastir_collector",
+          "expanded": "FastIR Collector",
+          "description": "Tool that collects different artifacts on live Windows systems and records the results in csv files. With the analyses of these artifacts, an early compromise can be detected."
+        },
+        {
+          "value": "fibratus",
+          "expanded": "Fibratus",
+          "description": "Tool for exploration and tracing of the Windows kernel."
+        },
+        {
+          "value": "hoarder",
+          "expanded": "Hoarder",
+          "description": "Collecting the most valuable artifacts for forensics or incident response investigations."
+        },
+        {
+          "value": "irec",
+          "expanded": "IREC",
+          "description": "All-in-one IR Evidence Collector which captures RAM Image, $MFT, EventLogs, WMI Scripts, Registry Hives, System Restore Points and much more. It is FREE, lightning fast and easy to use."
+        },
+        {
+          "value": "invoke-liveresponse",
+          "expanded": "Invoke-LiveResponse",
+          "description": " Invoke-LiveResponse is a live response tool for targeted collection."
+        },
+        {
+          "value": "ioc_finder",
+          "expanded": "IOC Finder",
+          "description": "Free tool from Mandiant for collecting host system data and reporting the presence of Indicators of Compromise (IOCs). Support for Windows only. No longer maintained. Only fully supported up to Windows 7 / Windows Server 2008 R2."
+        },
+        {
+          "value": "irtriage",
+          "expanded": "IRTriage",
+          "description": "Incident Response Triage"
+        },
+        {
+          "value": "kape",
+          "expanded": "KAPE",
+          "description": "Kroll Artifact Parser and Extractor (KAPE) by Eric Zimmerman. A triage tool that finds the most prevalent digital artifacts and then parses them quickly. Great and thorough when time is of the essence.  "
+        },
+        {
+          "value": "loki",
+          "expanded": "LOKI",
+          "description": "Free IR scanner for scanning endpoint with yara rules and other indicators(IOCs)."
+        },
+        {
+          "value": "meerkat",
+          "expanded": "MEERKAT",
+          "description": "PowerShell-based triage and threat hunting for Windows."
+        },
+        {
+          "value": "panorama",
+          "expanded": "Panorama",
+          "description": "Fast incident overview on live Windows systems."
+        },
+        {
+          "value": "powerforensics",
+          "expanded": "PowerForensics",
+          "description": "Live disk forensics platform, using PowerShell."
+        },
+        {
+          "value": "psrecon",
+          "expanded": "PSRecon",
+          "description": "PSRecon gathers data from a remote Windows host using PowerShell (v2 or later), organizes the data into folders, hashes all extracted data, hashes PowerShell and various system properties, and sends the data off to the security team. The data can be pushed to a share, sent over email, or retained locally."
+        },
+        {
+          "value": "regripper",
+          "expanded": "RegRipper",
+          "description": "Open source tool, written in Perl, for extracting/parsing information (keys, values, data) from the Registry and presenting it for analysis."
+        }
+      ]
+    }
+  ]
+}

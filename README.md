@@ -14,6 +14,14 @@ The goal of this project is to define taxonomies for incident response tools and
 
 * **Camille Bour** _alias_ [@PrettyDragonfly](https://github.com/PrettyDragonfly)
 
+## Usage
+
+```python
+
+cd script
+python3 incident_response_tools.py
+```
+
 ## For more about DFIR
 
 * https://github.com/PrettyDragonfly/Data_Acquisition (Taxonomies for data acquisition methods and tools)
